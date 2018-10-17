@@ -1,12 +1,47 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class FavoritePlace extends React.Component {
+  render() {
+    return (
+      <div className="favoritePics">
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+      </div>
+    );
+  }
+}
+
+class Favorites extends React.Component {
+  render() {
+    return (
+      <div className="favoritePics">
+
+      </div>
+    );
+  }
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="mainContainer">
+        <div className="topContainer">
+          <h1>Ninas Favorite Places in NYC</h1>
+        </div>
+        <div className="bodyContainer">
+          <h2>Food Edition</h2>
+          <div className="favoritesContainer">
+            <Favorites />
+          </div>
+          <footer>Copyright 2018 Nina Yang</footer>
+        </div>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
