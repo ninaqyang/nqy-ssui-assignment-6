@@ -9,7 +9,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  padding: 20px;
+  padding: 20px 0px 0px 0px;
 }
 
 .mainContainer {
@@ -32,11 +32,13 @@ h2 {
 }
 
 .bodyContainer {
-
+  
 }
 
 footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #5B5B5B;
+  margin-bottom: 30px;
+  text-align: center;
 }

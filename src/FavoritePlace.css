@@ -1,0 +1,18 @@
+img {
+  object-fit: cover;
+  display: block;
+}
+
+.favoritePlace {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #EDF0FF;
+  margin: 15px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+}
+
+.favoritePlaceImg {
+  width: 326px;
+  height: 326px;
+  padding: 0px;
+}
