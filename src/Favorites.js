@@ -12,18 +12,19 @@ import spiceWorldImg from './images/spice_world.jpg';
 class Favorites extends Component {
   constructor(props) {
     super(props);
+    // this.createHoverStateWith = this.createHoverStateWith.bind(this);
     // var bobaGuys = {image: bobaGuysImg, altText:"Boba Guys"}
   }
 
   render() {
     return (
       <div className="favoritesContainer">
-        <FavoritePlace image={bobaGuysImg} altText="Boba Guys" />
-        <FavoritePlace image={fishCheeksImg} altText="Fish Cheeks" />
-        <FavoritePlace image={mountainHouseImg} altText="Mountain House" />
-        <FavoritePlace image={nomWahImg} altText="Nom Wah" />
-        <FavoritePlace image={ramenLabImg} altText="Ramen Lab" />
-        <FavoritePlace image={spiceWorldImg} altText="Spice World" />
+        <FavoritePlace title="Boba Guys" image={bobaGuysImg} altText="Boba Guys" />
+        <FavoritePlace title="Fish Cheeks" image={fishCheeksImg} altText="Fish Cheeks" />
+        <FavoritePlace title="Szechuan Mountain House" image={mountainHouseImg} altText="Mountain House" />
+        <FavoritePlace title="Nom Wah Tea Parlor" image={nomWahImg} altText="Nom Wah" />
+        <FavoritePlace title="Ramen Lab" image={ramenLabImg} altText="Ramen Lab" />
+        <FavoritePlace title="Spice World" image={spiceWorldImg} altText="Spice World" />
       </div>
     );
   }
