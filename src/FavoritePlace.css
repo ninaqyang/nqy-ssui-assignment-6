@@ -25,6 +25,7 @@ img {
   align-items: center;
   animation: fade-in-background 0.3s ease-out 0s forwards;
   background-color: rgba(0,0,0,0.50);
+  cursor: pointer;
 }
 
 .favoritePlace:hover span {

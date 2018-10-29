@@ -1,7 +1,25 @@
+h2 {
+  font-size: 25px;
+  padding: 20px 0px 0px 0px;
+}
+
+.bodyContainer {
+  position: relative;
+
+}
+
 .favoritesContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0px 100px 50px 100px;
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #5B5B5B;
+  margin-bottom: 30px;
+  text-align: center;
 }

@@ -9,11 +9,7 @@ class App extends Component {
         <div className="topContainer">
           <h1>Ninas Favorite Places in NYC</h1>
         </div>
-        <div className="bodyContainer">
-          <h2>Food Edition</h2>
-          <Favorites />
-          <footer>Copyright 2018 Nina Yang</footer>
-        </div>
+        <Favorites />
       </div>
     );
   }
