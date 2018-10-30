@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/favorite-places/precache-manifest.f7f6ec4059ff0dbe2a6bd7a1c5e0f2bf.js"
+  "/nqy-ssui-assignment-6/precache-manifest.da7b4a66c07995da7397f7e7913171ee.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/favorite-places/index.html", {
+workbox.routing.registerNavigationRoute("/nqy-ssui-assignment-6/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
