@@ -21,12 +21,19 @@ class DescriptionModal extends Component {
               <div className="closeButton" onClick={onClose}>
                 <img className="closeIcon" src={closeIcon} alt="Close" />
               </div>
-              <p className="title">{title}</p>
-              <p className="description">{description}</p>
+              <div className="textContentLeft">
+                <div className="title">{title}</div>
+                <div className="description">{description}</div>
+              </div>
             </div>
+            <div className="centerLine"></div>
             <div className="rightContainer">
               <img className="stampIcon" src={stampIcon} alt="Stamp" />
-              <p className="address">{address}</p>
+              <div className="textContentRight">
+                <div className="address1">{address[0]}</div>
+                <div className="address2">{address[1]}</div>
+                <div className="address3">{address[2]}</div>
+              </div>
             </div>
           </div>
         </div>
